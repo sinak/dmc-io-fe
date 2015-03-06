@@ -10,6 +10,35 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
+@import "compass/css3/images";
+
+html, body {
+  min-height: 100%;
+}
 body {
   padding-top: 50px;
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F0F0F0;
+  min-height: 100%;
+}
+.navbar-header, .navbar-brand {
+  width: 100%;
+  text-align: center;
+}
+.navbar-brand #logo {
+  width: 300px;
+  margin: 0 auto;
+  // @extend .ro-gradient;
+}
+#progress-bar-bg {
+  width: 412px;
+}
+h1 {
+  font-family: 'Droid Serif', serif;
+  font-size: 60px;
+  text-align: center;
+  color: #444444;
 }
