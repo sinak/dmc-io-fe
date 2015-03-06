@@ -34,7 +34,7 @@ body {
   // @extend .ro-gradient;
 }
 #progress-bar-svg {
-  width: 412px;
+  width: 433px;
   margin: 0 auto;
 }
 div#progress-bar {
@@ -45,4 +45,9 @@ h1 {
   font-size: 60px;
   text-align: center;
   color: #444444;
+}
+#email-form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding:0 30px 30px 30px;
 }

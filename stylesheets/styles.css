@@ -8584,7 +8584,7 @@ body {
 
 /* line 36, ../sass/styles.scss */
 #progress-bar-svg {
-  width: 412px;
+  width: 433px;
   margin: 0 auto;
 }
 
@@ -8599,4 +8599,11 @@ h1 {
   font-size: 60px;
   text-align: center;
   color: #444444;
+}
+
+/* line 49, ../sass/styles.scss */
+#email-form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0 30px 30px 30px;
 }
