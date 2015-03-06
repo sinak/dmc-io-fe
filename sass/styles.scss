@@ -1,0 +1,15 @@
+// Import IE10 fix
+@import "ie_10_fix";
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+body {
+  padding-top: 50px;
+}
