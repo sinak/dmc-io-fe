@@ -8583,11 +8583,17 @@ body {
 }
 
 /* line 36, ../sass/styles.scss */
-#progress-bar-bg {
+#progress-bar-svg {
   width: 412px;
+  margin: 0 auto;
 }
 
-/* line 39, ../sass/styles.scss */
+/* line 40, ../sass/styles.scss */
+div#progress-bar {
+  text-align: center;
+}
+
+/* line 43, ../sass/styles.scss */
 h1 {
   font-family: 'Droid Serif', serif;
   font-size: 60px;

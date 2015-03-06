@@ -33,8 +33,12 @@ body {
   margin: 0 auto;
   // @extend .ro-gradient;
 }
-#progress-bar-bg {
+#progress-bar-svg {
   width: 412px;
+  margin: 0 auto;
+}
+div#progress-bar {
+  text-align: center;
 }
 h1 {
   font-family: 'Droid Serif', serif;
